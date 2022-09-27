@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap')
+
+*{
+	font-family: 'Raleway', sans-serif
+	box-sizing: border-box;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.header{
+	background: url(https://wallpapercave.com/wp/wp9149479.jpg);
+
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.overlay{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(169, 169, 169, 0.35);
+}
+
+.headerContent{
+	position: absolute;
+	color: white;
+	top: 35%;
+	min-width: 100%;
+}
+
+.headerContent h1{
+	letter-spacing: 15px;
+}
+
+.headerContent p{
+	font-size: 1.5rem;
+}
+
+
+.about h1, .cars h1, .tradeIn h1, .products h1, .team h1{
+		padding-bottom: 1,5em;
+	}
+
+.about, .cars, .tradeIn, .products, .team, .contact{
+	padding: 4em;
+}
+
+.about h1{
+	padding-bottom: 1.5em;
+}
+
+.aboutPadding{
+	padding: 0.3em;
+}
+
+.cars{
+	background: #343a40;
+	color: white;
+}
+
+.products{
+	background: #343a40;
+}
+
+.products h1{
+		color: white;
+}
+
+.team img{
+	border: 5px solid black;
+}
+
+.personDescription, .contact{
+	background: #343a40;
+	color: white;
+}
+
+.personDescription span{
+	color: #C0C0C0;
+}
+
+.aboutPadding{
+	padding-left: 25px;
+}
